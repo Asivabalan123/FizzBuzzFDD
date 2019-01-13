@@ -17,13 +17,8 @@ describe "FizzBuzz" do
     expect(@calc.divisible15(30)).to be true
   end
 
-  # it "should correctly return the sequence fizzbuzz sequence" do
-  # array = @calc.createfizzbuzzseq
-  # expect(array[2]).to be 2
-  # end
-
   it "should correctly return fizz" do
-  expect(@calc.createfizzbuzzseq[2]).to eq "fizz"
-end
+    expect(@calc.createfizzbuzzseq[2]).to eq "fizz"
+  end
 
 end
